@@ -16,6 +16,13 @@ public class FPController : MonoBehaviour
     private Vector2 lookInput;
     private Vector3 velocity;
     private float verticalRotation = 0f;
+
+    [Header("Crouch Settings")]
+    public float crouchHeight = 1f;
+    public float standHeight = 2f;
+    public float crouchspeed = 2.5f;
+    private float originalMoveSpeed;
+
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -62,6 +69,15 @@ public class FPController : MonoBehaviour
       {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
       }
+    }
+
+    public void OnCrouch(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            controller.height = crouchHeight;
+            moveSpeed = originalMoveSpeed;
+        }
     }
 
 }
