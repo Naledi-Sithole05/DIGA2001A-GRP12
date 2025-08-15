@@ -25623,16 +25623,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8811
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5395465
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.58
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.77
+      value: 21.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.59
+      value: 14.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -25661,6 +25669,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4162689642a3cca4085b4cb0e4f73df2, type: 3}
       propertyPath: m_Name
@@ -28397,7 +28409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 808aaf126c597a348ad38b1aa77eda34, type: 2}
+  - {fileID: 2100000, guid: 7ecdddba8f9131449aaf56bdd155e195, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
